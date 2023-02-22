@@ -1,0 +1,52 @@
+.catalog_item {
+    background: #482c70;
+    padding: 0px 20px 20px 20px;
+    padding-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  
+  }
+  
+  .catalog_item h6 {
+    color: #F99417;
+    margin-bottom: 20px;
+    background: transparent;
+    
+  }
+  
+  .catalog_img {
+    margin-top: 30px;
+  
+    background: transparent;
+  }
+  
+  .catalog_img img {
+    border-radius: 10px;
+  }
+  
+  .catalog_keyword {
+    padding: 5px 10px;
+    color: #fff;
+    background: #808dad68;
+    font-size: 0.7rem;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .catalog_live {
+    margin-left: -100px;
+    margin-top: 30px;
+    display: none;
+  }
+  
+  .catalog_item:hover .catalog_live {
+    margin-left: 0;
+    display: block;
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .catalog_img img {
+      width: 100% !important;
+    }
+  }
+  
