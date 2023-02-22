@@ -39,7 +39,11 @@ section {
   padding-top: 150px;
 }
 
-
+footer {
+  padding-bottom: 10px;
+  padding-top: 60px;
+  border-top: 1px solid #171f38;
+}
 
 ::-webkit-scrollbar {
   width: 10px;
