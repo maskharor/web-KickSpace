@@ -138,6 +138,79 @@ const catalog = [
         keyword: ["Adidas", "Casual", "Style"],
         liveUrl: "#",
       },
+
+      // ========================== Converse Shoes ===================
+      {
+        id: "17",
+        title: "Converse CT All Star -Optic White ",
+        img: "/images/catalog-img17.jpg",
+        category: "Converse",
+        keyword: ["Converse", "Casual", "Style"],
+        liveUrl: "#",
+      },
+
+      {
+        id: "18",
+        title: "Converse Chuck 70 High -Sunflower",
+        img: "/images/catalog-img18.jpg",
+        category: "Converse",
+        keyword: ["Converse", "Casual", "Style"],
+        liveUrl: "#",
+      },
+
+      {
+        id: "19",
+        title: "Converse Chuck 70 High -Parchment",
+        img: "/images/catalog-img19.jpg",
+        category: "Converse",
+        keyword: ["Converse", "Casual", "Style"],
+        liveUrl: "#",
+      },
+
+      {
+        id: "20",
+        title: "Converse Chuck Taylor -Obsidian",
+        img: "/images/catalog-img20.jpg",
+        category: "Converse",
+        keyword: ["Converse", "Casual", "Style"],
+        liveUrl: "#",
+      },
+
+      {
+        id: "21",
+        title: "Converse Chuck Taylor -Reflective",
+        img: "/images/catalog-img21.jpg",
+        category: "Converse",
+        keyword: ["Converse", "Casual", "Style"],
+        liveUrl: "#",
+      },
+
+      {
+        id: "22",
+        title: "Converse CTAS HIGH STREET MID ",
+        img: "/images/catalog-img22.jpg",
+        category: "Converse",
+        keyword: ["Converse", "Casual", "Style"],
+        liveUrl: "#",
+      },
+
+      {
+        id: "23",
+        title: "Converse Chuck Taylor -Red",
+        img: "/images/catalog-img23.jpg",
+        category: "Converse",
+        keyword: ["Converse", "Casual", "Style"],
+        liveUrl: "#",
+      },
+
+      {
+        id: "24",
+        title: "Converse Chuck 70 -Black",
+        img: "/images/catalog-img22.jpg",
+        category: "Converse",
+        keyword: ["Converse", "Casual", "Style"],
+        liveUrl: "#",
+      },
 ];
 
 export default catalog;
