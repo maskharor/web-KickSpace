@@ -14,7 +14,7 @@ const Intro = () => {
             <SectionTitle subtitle="Hello" />
             <div className={`${classes.intro_content}`}>
               <h2 className="mt-3 mb-3">We are KickSpace</h2>
-              <h5 className="mb-4">&apos;Walk on Clouds with Our Comfortable Shoes&apos;</h5>
+              <h5 className="mb-4">Walk on Clouds with Our Comfortable Shoes</h5>
               <p>
               Welcome to our website, the best place to find the right shoes for your style. We provide a wide range of shoes for women, men, and children from leading brands around the world.
               </p>
