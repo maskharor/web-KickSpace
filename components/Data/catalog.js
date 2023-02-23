@@ -206,7 +206,7 @@ const catalog = [
       {
         id: "24",
         title: "Converse Chuck 70 -Black",
-        img: "/images/catalog-img22.jpg",
+        img: "/images/catalog-img24.jpg",
         category: "Converse",
         keyword: ["Converse", "Casual", "Style"],
         liveUrl: "#",
