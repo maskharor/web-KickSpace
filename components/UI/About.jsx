@@ -12,7 +12,7 @@ import classes from "../../styles/about.module.css";
 const About = () => {
   return (
     <section id="about">
-      <Container>
+      '<Container>
         <Row>
           <Col lg="6" className={`${classes.about_content}`}>
             <SectionTitle subtitle="About Us" />
@@ -99,7 +99,7 @@ const About = () => {
             </div>
           </Col>
         </Row>
-      </Container>
+      </Container>'
     </section>
   );
 };
