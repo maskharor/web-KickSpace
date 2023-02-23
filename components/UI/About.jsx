@@ -12,7 +12,7 @@ import classes from "../../styles/about.module.css";
 const About = () => {
   return (
     <section id="about">
-      '<Container>
+      <Container>
         <Row>
           <Col lg="6" className={`${classes.about_content}`}>
             <SectionTitle subtitle="About Us" />
@@ -27,7 +27,7 @@ const About = () => {
               shipping, so you can easily obtain your dream shoes. For size
               issues, we guide you through the size selection process. Don't
               hesitate to make a purchase because we accept size exchanges
-              (terms and conditions apply).
+              (terms and conditions apply).&quot;
             </p>
 
             <div className=" d-flex align-items-center gap-5">
@@ -98,8 +98,8 @@ const About = () => {
               </div>
             </div>
           </Col>
-        </Row>
-      </Container>'
+        </Row>&quot;
+      </Container>
     </section>
   );
 };
