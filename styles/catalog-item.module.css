@@ -33,17 +33,6 @@
     border-radius: 5px;
   }
   
-  .catalog_live {
-    margin-left: -100px;
-    margin-top: 30px;
-    display: none;
-  }
-  
-  .catalog_item:hover .catalog_live {
-    margin-left: 0;
-    display: block;
-  }
-  
   @media only screen and (max-width: 576px) {
     .catalog_img img {
       width: 100% !important;
