@@ -9,13 +9,15 @@ const NAV_LINK = [
     path: "/",
     display: "Home",
   },
-  {
-    path: "#about",
-    display: "About",
-  },
+  
   {
     path: "#catalog",
     display: "catalog",
+  },
+
+  {
+    path: "#about",
+    display: "About",
   },
 ];
 
