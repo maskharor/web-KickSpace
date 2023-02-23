@@ -3,7 +3,7 @@ import { Container, Row, Col } from "reactstrap";
 import classes from "../../styles/catalog.module.css";
 import CatalogItem from "./CatalogItem";
 
-import catalogData from "../data/catalog";
+import catalogData from "../Data/catalog";
 
 const Catalog = () => {
   const [filter, setFilter] = useState("Nike");

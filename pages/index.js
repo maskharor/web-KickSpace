@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import Intro from "../components/UI/Intro";
+import Intro from "../components/UI/intro";
 import Carousel from "../components/UI/Carousel";
 import Catalog from "../components/UI/Catalog";
 import About from "../components/UI/About";
