@@ -25,9 +25,9 @@ const About = () => {
               intuitive navigation, clear product descriptions, and high-quality
               images. Additionally, we offer competitive prices and fast
               shipping, so you can easily obtain your dream shoes. For size
-              issues, we guide you through the size selection process. Don't
+              issues, we guide you through the size selection process. Don&apos;t
               hesitate to make a purchase because we accept size exchanges
-              (terms and conditions apply).&quot;
+              (terms and conditions apply).
             </p>
 
             <div className=" d-flex align-items-center gap-5">
@@ -98,7 +98,7 @@ const About = () => {
               </div>
             </div>
           </Col>
-        </Row>&quot;
+        </Row>
       </Container>
     </section>
   );
