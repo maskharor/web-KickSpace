@@ -1,0 +1,43 @@
+.about_icon i {
+    color: #01d293;
+  }
+  
+  .about_img {
+    padding: 10px;
+    background: #482c70;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  .about_img:hover{
+    background: #E8E2E2;
+    cursor: pointer;
+    transform: translateY(-20px);
+  }
+  
+  .about_img img {
+    width: 100% !important;
+    border-radius: 5px;
+  }
+  
+  .about_img_box {
+    width: 200px !important;
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .about_img_gallery {
+      justify-content: center !important;
+      margin-top: 50px;
+    }
+  
+    .about_content h3 {
+      font-size: 1.3rem;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .about_img_box {
+      width: 150px !important;
+    }
+  }
+  
