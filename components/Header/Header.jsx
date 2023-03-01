@@ -12,7 +12,7 @@ const NAV_LINK = [
   
   {
     path: "#catalog",
-    display: "catalog",
+    display: "Catalog",
   },
 
   {

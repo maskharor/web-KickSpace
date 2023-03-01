@@ -14,10 +14,18 @@ const CatalogItem = (props) => {
             {item}
           </span>
         ))}
+        
       </div>
 
       <div className={`${classes.catalog_img}`}>
         <Image alt="portfolio-img" src={img} width="280" height="280" />
+      
+      </div>
+
+      <div className={`${classes.catalog_btn} bg-transparent`}>
+        <button className="primary_btn">
+          <Link href={liveUrl}>Order</Link>
+        </button>
       </div>
     </div>
   );
