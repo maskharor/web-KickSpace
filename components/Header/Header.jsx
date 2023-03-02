@@ -12,8 +12,8 @@ const NAV_LINK = [
   
   {
     path: "#catalog",
-    display: "Catalog",
-  },
+    display: "Favorite",
+  },  
 
   {
     path: "#about",

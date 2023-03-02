@@ -24,7 +24,7 @@ const CatalogItem = (props) => {
 
       <div className={`${classes.catalog_btn} bg-transparent`}>
         <button className="primary_btn">
-          <Link href={liveUrl}>Order</Link>
+          <Link href="/order">Order</Link>
         </button>
       </div>
     </div>
