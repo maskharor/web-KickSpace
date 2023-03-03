@@ -1,4 +1,3 @@
-"use client"
 import data from "../../components/data/catalog";
 import React, { useEffect, useState, useRef } from "react";
 import Image from "next/image";
