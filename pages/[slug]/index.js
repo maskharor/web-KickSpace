@@ -38,8 +38,8 @@ function Order() {
               src={shoes.img}
               alt={shoes.title}
               className="w-96 rounded-md"
-              width={200}
-              height={200}
+              width={360}
+              height={480}
             />
           </div>
 
