@@ -31,11 +31,10 @@ function Order() {
         <div className="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0 md:space-x-12">
           {/* Product's image */}
           <div className="relative">
-            <Image
+            <img
               src={shoes.img}
               alt={shoes.title}
               className="w-96 rounded-md"
-              width="384" height="480"
             />
           </div>
 
