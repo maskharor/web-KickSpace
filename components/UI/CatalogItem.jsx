@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const CatalogItem = (props) => {
-  const { title, img, liveUrl, keyword } = props.item;
+  const { id ,title, img, keyword, description } = props.item;
   return (
     <div className={`${classes.catalog_item}`}>
       <div className="bg-transparent">
@@ -24,7 +24,7 @@ const CatalogItem = (props) => {
 
       <div className={`${classes.catalog_btn} bg-transparent`}>
         <button className="primary_btn">
-          <Link href="/order">Order</Link>
+          <Link href={`/${id}`}>Order</Link>
         </button>
       </div>
     </div>
