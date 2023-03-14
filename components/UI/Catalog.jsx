@@ -3,12 +3,31 @@ import { Container, Row, Col } from "reactstrap";
 import classes from "../../styles/catalog.module.css";
 import CatalogItem from "./CatalogItem";
 
-import catalogData from "../Data/catalog";
+import catalogData from "../Data/catalog.json";
+
+  // const cData = "../Data/catalog.json";
+  // async function getcatalog() {
+  //   try{
+  //   const ress = await fetch('https://jsonplaceholder.ir/users')
+  //   const posts = await res.json()
+
+  //   return {
+  //     props: {
+  //       posts,
+  //     },
+  //   };  
+  //   }catch (error) {
+  //       console.log("error bang Al");
+  //   }
+    
+  // } 
+  
 
 const Catalog = () => {
   const [filter, setFilter] = useState("Nike");
   const [data, setData] = useState();
 
+  
   useEffect(() => {
     if (filter === "Nike") {
       const filteredData = catalogData.filter(
@@ -37,6 +56,7 @@ const Catalog = () => {
 
   const active = `${classes.tab_btn_active}`;
 
+  
   return (
     <section id="catalog">
       <Container>
@@ -85,5 +105,6 @@ const Catalog = () => {
     </section>
   );
 };
+
 
 export default Catalog;
